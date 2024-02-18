@@ -29,12 +29,15 @@ export default function Blog({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <>
-      <PageSEO title={`全部文章 - ${siteMetadata.author}`} description={siteMetadata.description} />
+      <PageSEO
+        title={`All Posts - ${siteMetadata.author}`}
+        description={siteMetadata.description}
+      />
       <ListLayout
         posts={posts}
         initialDisplayPosts={initialDisplayPosts}
         pagination={pagination}
-        title="全部文章"
+        title="All Posts"
       />
     </>
   )

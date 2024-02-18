@@ -14,12 +14,12 @@ export default function Pagination({ totalPages, currentPage }: Props) {
       <nav className="flex justify-between">
         {!prevPage && (
           <button className="cursor-auto disabled:opacity-50" disabled={!prevPage}>
-            上一页
+            Previous
           </button>
         )}
         {prevPage && (
           <Link href={currentPage - 1 === 1 ? `/blog/` : `/blog/page/${currentPage - 1}`}>
-            <button>上一页</button>
+            <button>Previous</button>
           </Link>
         )}
         <span>
@@ -27,12 +27,12 @@ export default function Pagination({ totalPages, currentPage }: Props) {
         </span>
         {!nextPage && (
           <button className="cursor-auto disabled:opacity-50" disabled={!nextPage}>
-            下一页
+            Next
           </button>
         )}
         {nextPage && (
           <Link href={`/blog/page/${currentPage + 1}`}>
-            <button>下一页</button>
+            <button>Next</button>
           </Link>
         )}
       </nav>

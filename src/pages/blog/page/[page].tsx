@@ -59,7 +59,7 @@ export default function PostPage({
         posts={posts}
         initialDisplayPosts={initialDisplayPosts}
         pagination={pagination}
-        title="所有文章"
+        title="All Posts"
       />
     </>
   )

@@ -27,7 +27,7 @@ export default function Article({ slug, date, title, summary, tags, images }: Po
                 </Link>
               </dt>
             ) : null}
-            <dd className="sr-only">发布时间</dd>
+            <dd className="sr-only">Publish Time</dd>
             <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
               <time dateTime={date}>{formatDate(date)}</time>
             </dd>
@@ -54,7 +54,7 @@ export default function Article({ slug, date, title, summary, tags, images }: Po
                 className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                 aria-label={`Read "${title}"`}
               >
-                查看更多 &rarr;
+                Load More &rarr;
               </Link>
             </div>
           </div>

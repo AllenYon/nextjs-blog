@@ -29,10 +29,10 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
           </h1>
           <div className="relative max-w-lg">
             <input
-              aria-label="搜索文章"
+              aria-label="Search articles"
               type="text"
               onChange={(e) => setSearchValue(e.target.value)}
-              placeholder="搜索文章"
+              placeholder="Search articles"
               className="block w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-900 dark:bg-gray-800 dark:text-gray-100"
             />
             <svg
@@ -52,7 +52,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
           </div>
         </div>
         <ul>
-          {!filteredBlogPosts.length && '暂无数据'}
+          {!filteredBlogPosts.length && 'No posts found.'}
           {displayPosts.map((frontMatter) => {
             const { slug } = frontMatter
             return <Article {...frontMatter} key={slug} />
