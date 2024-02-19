@@ -2,7 +2,8 @@
 import React, { useMemo } from 'react'
 import { ComponentMap, getMDXComponent } from 'mdx-bundler/client'
 import Image from './Image'
-// import Video from './Video'
+import Video from './Video'
+import LocalVideo from './LocalVideo'
 import CustomLink from './Link'
 import TOCInline from './TOCInline'
 import Pre from './Pre'
@@ -15,7 +16,8 @@ const Wrapper: React.ComponentType<{ layout: string }> = ({ layout, ...rest }) =
 
 export const MDXComponents: ComponentMap = {
   Image,
-  // Video,
+  Video,
+  LocalVideo,
   //@ts-ignore
   TOCInline,
   a: CustomLink,

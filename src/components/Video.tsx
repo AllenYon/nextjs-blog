@@ -8,9 +8,9 @@ export default function Video({ src }: Props) {
   return (
     <iframe
       src={src}
-      scrolling="no"
+      frameBorder="0"
       className="aspect-video w-full"
-      frameBorder="no"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowFullScreen
     ></iframe>
   )

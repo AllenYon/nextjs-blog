@@ -11,7 +11,7 @@ const ContentSecurityPolicy = `
   media-src 'self';
   connect-src *;
   font-src 'self';
-  frame-src giscus.app game.runjs.cool player.bilibili.com
+  frame-src giscus.app game.runjs.cool player.bilibili.com www.youtube.com twitter.com
 `
 
 const securityHeaders = [
