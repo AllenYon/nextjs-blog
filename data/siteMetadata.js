@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Allen Yan',
+  title: 'Allen Yan ',
   author: 'Allen Yan',
   headerTitle: 'Allen Yan',
   description: 'Mobile Developer | Frontend Developer | Full Stack Developer | AI Enthusiast',
