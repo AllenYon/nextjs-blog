@@ -6,7 +6,7 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://allenyan.ca',
-  siteRepo: 'https://github.com/maqi1520/nextjs-tailwind-blog',
+  siteRepo: 'https://github.com/AllenYon/nextjs-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',

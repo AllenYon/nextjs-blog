@@ -5,10 +5,7 @@ lastmod: '2022/11/01'
 tags: [Halifax, 房地产, 加拿大, 租售比, 投资回报率]
 draft: false
 summary: '我们落地Halifax已经有段时间了，关于租房买房市场比较深切的感受就是这边的租售比很高，比如60万加币的房子可以租到3000加币，租售比200:1，而通常国内杭州300万人民币的房子只能租到5000人民币，租售比600:1。而200:1的租售比换算成投资回报率就是6%，和目前加拿大TD银行的5.4%左右的存款利率相近，当然还要算上房产税和维护成本。'
-images:
-  [
-    'https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/30186eea195046b0966478f877db18a8~tplv-k3u1fbpfcp-watermark.image?',
-  ]
+images: ['https://catalogue.novascotia.com/ManagedMedia/28862.jpg']
 authors: ['default']
 layout: PostLayout
 ---
