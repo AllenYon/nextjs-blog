@@ -1,8 +1,8 @@
 const siteMetadata = {
-  title: 'Allen Yan ',
-  author: 'Allen Yan',
-  headerTitle: 'Allen Yan',
-  description: 'Mobile Developer | Frontend Developer | Full Stack Developer | AI Enthusiast',
+  title: 'Ligang Yan ',
+  author: 'Ligang Yan',
+  headerTitle: 'Ligang Yan',
+  description: 'Software Engineer | Product Manager',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://allenyan.ca',
