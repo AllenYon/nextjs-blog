@@ -4,7 +4,7 @@ date: '2024/03/01'
 lastmod: '2024/03/01'
 tags: ['Swift', 'Interview', 'Challenge']
 draft: false
-summary: ''
+summary: '在这篇文章中，我们将讨论 Swift 中的一些常见面试问题，包括匹配括号、SceneDelegate 方法、闭包和内存地址等。'
 images:
   [
     'https://assets-global.website-files.com/62ebf26875eba5d0775548fe/6445f9fc857e3615b7d1798f_Ios%20swift.webp',

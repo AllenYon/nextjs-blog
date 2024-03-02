@@ -4,8 +4,11 @@ date: '2024/03/02'
 lastmod: '2024/03/02'
 tags: ['Ollama', 'Amazon EC2', 'GPU']
 draft: false
-summary: ''
-images: ['https://files.merca20.com/uploads/2024/02/SORA-OPENAI-CHATGPT-VIDEO.jpg']
+summary: '欢迎阅读有关如何在 Amazon EC2 带有 GPU 的实例上部署 Ollama Server 的综合指南。'
+images:
+  [
+    'https://opengraph.githubassets.com/62354a5ca230d774e2b2d3e9ce07f5a0612861511fb8416d1fcf42f31bf704f5/ollama/ollama',
+  ]
 authors: ['default']
 layout: PostLayout
 ---
