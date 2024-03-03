@@ -5,7 +5,8 @@ lastmod: '2024/02/10'
 tags: ['NodeBB', 'React Native', 'Open Source']
 draft: false
 summary: 'This is an open source project that I have been working on for a while. It is a React Native client for NodeBB. It is still in the early stages of development, but it is already functional and can be used to browse and interact with NodeBB forums. I would love to get some feedback and contributions from the community. You can find the project on GitHub at'
-images: ['https://files.merca20.com/uploads/2024/02/SORA-OPENAI-CHATGPT-VIDEO.jpg']
+images:
+  ['https://repository-images.githubusercontent.com/9603889/e174fda2-a71b-42e8-af15-e57d178ddcc6']
 authors: ['default']
 layout: PostLayout
 ---
