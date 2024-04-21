@@ -15,7 +15,7 @@ layout: PostLayout
 
 ## 1. 为什么需要双语字幕的 YouTube 视频?
 
-YouTube 每年有数以百万计的视频被用户们上传，其中绝大多数的视频是英文的，YouTube 会自动为视频生成英文字幕,
+[YouTube](https://www.youtube.com) 每年有数以百万计的视频被用户们上传，其中绝大多数的视频是英文的，YouTube 会自动为视频生成英文字幕,
 如果有需要你还可以选择将英语翻译成其他语言的字幕，比图所示，非常方便。
 
 ![img.png](/static/images/youtub_subtitle/img_5.png)
@@ -37,24 +37,23 @@ YouTube 每年有数以百万计的视频被用户们上传，其中绝大多数
 
 ## 2. 如何实现在 YouTube 上观看双语字幕的视频?
 
-我们暂时只讨论已经有字幕文件的 YouTube 视频，对于没有字幕文件的视频，我会另外写一篇来详细解释如何使用 yt-dlp, ffmpeg,
-whisper 等工具来实现。
+我们暂时只讨论已经有字幕文件的 YouTube 视频，对于没有字幕文件的视频，我会另外写一篇来详细解释如何使用 [yt-dlp](https://github.com/yt-dlp/yt-dlp), [ffmpeg](https://ffmpeg.org/), [whisper](https://openai.com/research/whisper) 等工具来实现。
 
 大致的实现步骤：
 
-1. 下载 youtube 视频的原始语言字幕文件
+1. 下载 YouTube 视频的原始语言字幕文件
 2. 将原始语言字幕文件翻译成目标语言字幕文件
 3. YouTube 视频中添加字幕（软字幕或者硬字幕）
 
-### 2.1 下载 youtube 视频的原始语言字幕文件
+### 2.1 下载 YouTube 视频的原始语言字幕文件
 
-我们将使用 `youtube-captions-scraper` 这个类库来下载 youtube 视频的字幕文件， 首先我们来安装
+我们将使用 [`youtube-captions-scraper`](https://www.npmjs.com/package/youtube-captions-scraper) 这个类库来下载 YouTube 视频的字幕文件， 首先我们来安装
 
 ```bash
 npm i youtube-captions-scraper
 ```
 
-我们只需要传入 youtube 视频的 id 和原始语言的语言代码，就可以获取到字幕文件数据，
+我们只需要传入 YouTube 视频的 id 和原始语言的语言代码，就可以获取到字幕文件数据，
 
 ```javascript
 import { getSubtitles } from 'youtube-captions-scraper'
@@ -93,8 +92,8 @@ getSubtitles({ videoID: videoID, lang: 'en' }).then((captions) => {
 
 ![img_1.png](/static/images/youtub_subtitle/img_1.png)
 
-机器翻译的实现，我们可以选择如 Google Translate API、Microsoft Translator API 等。我们先来安装 Google Translate Node.js
-客户端库
+机器翻译的实现，我们可以选择如 Google Translate API、Microsoft Translator API 等。我们先来安装 [Google Translate Node.js
+客户端库](https://www.npmjs.com/package/@google-cloud/translate)
 
 ```bash
 npm install @google-cloud/translate
